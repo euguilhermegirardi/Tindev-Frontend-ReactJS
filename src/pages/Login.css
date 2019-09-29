@@ -1,15 +1,15 @@
 .login-container {
   height: 100%;
   display: flex;
-  justify-content: center; /*horizontal*/
-  align-items: center; /*vertical*/
+  justify-content: center;
+  align-items: center;
 }
 
 .login-container form {
-  width: 100%; /* if the user's screen is under 300px it will have 100% of the width. */
-  max-width: 300px; /* otherwise it'll have max of 300px of width. */
+  width: 100%;
+  max-width: 300px;
   display: flex;
-  flex-direction: column; /* Main configuration is row. So we must say 'column' if we want it. */
+  flex-direction: column;
 }
 
 .login-container form input {
